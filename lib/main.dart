@@ -33,10 +33,23 @@ class MyHomePage extends StatefulWidget {
 buttonPressed(){
 
 }
-// () buildingButton(){
-//   return (
-//   );
-// }
+Widget buildingButton(String buttonText){
+  return Expanded(
+    child: SizedBox(
+      height: 70.0,
+      child: Padding(
+        padding: const EdgeInsets.all(2.0),
+        child: OutlinedButton(
+          child: Text(
+            buttonText,
+            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
+              onPressed: () => buttonPressed(),
+        ),
+      ),
+  )
+  );
+}
 class _MyHomePageState extends State<MyHomePage> {
   @override
 Widget build (BuildContext context){
@@ -51,6 +64,13 @@ Widget build (BuildContext context){
           Container(
             alignment: Alignment.centerRight,
             padding: EdgeInsets.symmetric(vertical: 24.0, horizontal:12.0),
+            child: Text(
+                '0',
+                style:TextStyle(
+                  fontSize: 48.0,
+                  fontWeight: FontWeight.bold,
+                )
+            ),
           )
         ],
       )
