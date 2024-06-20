@@ -2,7 +2,7 @@
 
 A new Flutter project.
 <!-- Using HTML to set the image width and height -->
-<img src="https://github.com/Brenda309/calculator/assets/72613775/29494c3b-0203-44e5-beb8-1ceaa75d917a" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-06-20 at 13 39 10" width="600" height="300" />
+<img src="https://github.com/Brenda309/calculator/assets/72613775/29494c3b-0203-44e5-beb8-1ceaa75d917a" alt="Simulator Screenshot - iPhone 15 Pro Max - 2024-06-20 at 13 39 10" width="400" height="700" />
 
 
 
