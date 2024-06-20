@@ -1,6 +1,7 @@
 # calculator
 
 A new Flutter project.
+![Simulator Screenshot - iPhone 15 Pro Max - 2024-06-20 at 13 35 15](https://github.com/Brenda309/calculator/assets/72613775/43abbcb0-9c08-4198-ad57-765029708aa4)
 
 ## Getting Started
 
